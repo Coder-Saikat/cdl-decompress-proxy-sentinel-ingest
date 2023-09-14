@@ -65,6 +65,6 @@ jobs:
           app-name: 'cortexqwert'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DFD4FF21A04640AC971DD830294FA790 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D3D598B9C1AA4ECB876303D500AF01C6 }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
